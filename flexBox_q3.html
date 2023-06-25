@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox in CSS Assignment</title>
+    <style>
+        
+
+        .container {
+            background-color: black;
+            width: 100%;
+            border-radius: 5px;
+            display: flex;
+            flex-wrap: wrap;
+            position: fixed;
+            bottom: 1px;
+            justify-content: space-around;
+            color: aliceblue;
+        }
+        
+        .section1{
+            margin: 20px;
+        }
+        
+        .section1 img {
+            width: 180px;
+        }
+        .section2>h3{
+            
+            font-size: 24px;
+            font-weight: bolder;
+        }
+        .section2-list{
+            display: flex;
+            flex-wrap: wrap;
+
+        }
+        .section2-list1{
+            list-style-type: none;
+            padding: 5px;
+        }
+        .section2-list1>li{
+            padding: 10px;
+        
+        }
+        .section2-list2{
+            list-style-type: none;
+            padding: 5px;
+        }
+        .section2-list2>li{
+            padding: 10px;
+        
+        }
+
+        .section3>h3{
+            
+            font-size: 24px;
+            font-weight: bolder;
+            
+            
+        }
+        .section3-list{
+            list-style-type: none;
+            text-align: left;
+            padding: 0;
+            
+
+        }
+        .section3-list>li{
+            padding: 5px;
+
+        }
+
+    </style>
+</head>
+
+<body>
+    <footer class="container">
+        <section class="section1">
+            <img src="./assets/pw skills logo.jpg" alt="logo">
+            <h3>Email us</h3>
+            <p>support@pwskills.com</p>
+            <img src="./assets/isologo.jpg" alt="iso logo">
+            <p>ISO 9001</p>
+
+        </section>
+        <section class="section2">
+            <h3>PW Skills</h3>
+            <hr>
+            <div class="section2-list">
+            <ul class="section2-list1" id="list1">
+                <li>About Us</li>
+                <li>FAQs</li>
+                <li>Privacy policy</li>
+            </ul>
+            <ul class="section2-list2" id="list2">
+                <li>Contact Us</li>
+                <li>Job assistance</li>
+                <li>Terms and conditions</li>
+            </ul>
+        </div>
+
+        </section>
+        <section class="section3">
+            <h3>Products</h3>
+            <hr>
+            <ul class="section3-list">
+                <li>PW skills Lab</li>
+                <li>Job Portal</li>
+                <li>Experience Portal</li>
+                <li>Become an affiliate</li>
+                <li>Hall of fame</li>
+            </ul>
+        </section>
+    </footer>
+
+</body>
+
+</html>

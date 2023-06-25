@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox in CSS Assignment Q2</title>
+    <style>
+      *{
+        padding: 0;
+        margin: 0;
+      }
+      .container{
+        background-color: black;
+        color:coral;
+        height: 100vh;
+        width: 100vw;
+      }
+      header{
+        text-align: center;
+        font-size: 20px;
+      }
+      header>h1{
+        padding: 20px;
+      }
+      .card-container{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+      .card-matter{
+        height: 400px;
+        width: 350px;
+        background-color: rgb(24, 37, 37);
+        border-radius: 20px;
+        
+        text-align: center;
+        margin: 40px;
+        
+      }
+      .card-matter>img{
+        margin: 20px;
+        width: 90%;
+
+      }
+      
+      .card-item{
+        text-align: left;
+
+      }
+      .card-item>h2{
+        margin: 15px;
+      }
+      .card-item>p{
+        margin: 15px;
+        color: aliceblue;
+      }
+
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Community Programs</h1>
+            <p>Open to all pro-live classes on Youtube for free.</p>
+        </header>
+
+        <!-- card container -->
+
+        <div class="card-container">
+            <!-- project item one -->
+            <div class="card-matter">
+                <img src="./pw skills image.jpg" alt="sample image">
+                <div class="card-item">
+                
+                <h2>Masterclass Understanding APIs in Web development with Roadmap</h2>
+                <p>Hitesh Choudhary</p>
+                <p>FREE</p>
+              </div>
+                
+                
+            </div>
+
+            <!-- project item two -->
+            <div class="card-matter">
+                <img src="./pw skills image.jpg" alt="sample image">
+                <div class="card-item">
+                
+                <h2>Masterclass Cracking The Coding Interview Listlist</h2>
+                <p>Vishawa Mohan</p>
+                <p>FREE</p>
+              </div>  
+            </div>
+
+            
+            <!-- project item three -->
+            <div class="card-matter">
+                <img src="./pw skills image.jpg" alt="sample image">
+                <div class="card-item">
+                
+                <h2>Masterclass Importance of DSA in Mordern programming</h2>
+                <p>Priya Bhatiya</p>
+                <p>FREE</p>
+              </div>  
+            </div>
+
+    </div>
+    
+</body>
+</html>

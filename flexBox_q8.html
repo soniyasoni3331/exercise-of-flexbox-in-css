@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox in CSS Assignment</title>
+    <style>
+        .container{
+            background-color: black;
+            width: 100%;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .image{
+            
+        }
+        .image>img{
+            width: 300px;
+            height: 300px;
+        }
+        #image-1{
+            border: 7px solid white;
+            border-radius: 300px;
+            position: relative;
+            margin-left: -30px;
+            z-index: 4;
+
+            
+        }
+        #image-2{
+            border: 7px solid white;
+            border-radius: 300px;
+            position: relative;
+            margin-left: -40px;
+            z-index: 3;
+
+            
+        }
+        #image-3{
+            border: 7px solid white;
+            border-radius: 300px;
+            position: relative;
+            margin-left: -40px;
+            z-index: 2;
+
+
+
+        }
+        #image-4{
+            border: 7px solid white;
+            border-radius: 300px;
+            position: relative;
+            margin-left: -40px;
+            z-index: 1;
+
+            
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="image"><img id="image-1" src="./assets/assetimg1.jpg" alt="sample image"></div>
+        <div class="image"><img id="image-2" src="./assets/assetimg11.jpg" alt="sample image"></div>
+        <div class="image"><img id="image-3" src="./assets/assetimg2.jpg" alt="sample image"></div>
+        <div class="image"><img id="image-4" src="./assets/assetimg4.jpg" alt="sample image"></div>
+    </div>
+    
+</body>
+</html>

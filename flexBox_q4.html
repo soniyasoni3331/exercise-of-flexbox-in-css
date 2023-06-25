@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox in CSS Assignment Q4</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: font-family: 'Balsamiq Sans', cursive;
+            ;
+        }
+
+        .container {
+
+            width: 100%;
+
+        }
+
+        .nav-bar {
+            width: 98%;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            font-size: 25px;
+        }
+
+        .nav-bar-pt1 {
+            margin: 5px 10px 2px 20px;
+            display: flex;
+            
+        }
+
+        .nav-bar-pt1>img {
+            height: 45px;
+
+        }
+
+        .nav-bar-pt1>span {
+        padding: 5px;
+
+        }
+
+        .btn {
+            background: transparent;
+            border: 1px solid lightgray;
+            border-radius: 5px;
+            color: rgb(44, 162, 235);
+            padding: 10px;
+            width: 100px;
+            font-size: 15px;
+
+
+        }
+
+        
+
+        .main-cont{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+        }
+
+
+        .section1 {
+        
+            width: 500px;
+            margin: 100px 50px;
+
+
+        }
+
+        .section1>h1 {
+            font-size: 60px;
+            margin: 10px;
+        }
+
+        .section1>p {
+            font-size: 18px;
+            margin: 10px;
+
+
+        }
+
+        .btn-ca {
+            background-color: rgb(44, 162, 235);
+            border: none;
+            color: white;
+            border-radius: 4px;
+            padding: 10px;
+            margin: 10px;
+            font-size: 15px;
+
+        }
+
+        .btn-fw {
+            font-size: 15px;
+            border: none;
+            background: transparent;
+            padding: 10px;
+            margin: 10px;
+            color: rgb(44, 162, 235);
+
+        }
+
+
+        .section2>img {
+            width: 800px;
+            height: 600px;
+            margin: 20px 20px;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <header class="nav-bar">
+            <div class="nav-bar-pt1">
+                <img src="https://www.google.com/gmail/about/static-2.0/images/logo-gmail.png?fingerprint=c2eaf4aae389c3f885e97081bb197b97"" alt="
+                    logo">
+
+                <span>Gmail</span>
+            </div>
+            <div class="nav-bar-btn">
+                <button class="btn-fw">For work</button>
+                <button class="btn">Sign In</button>
+                <button class="btn-ca">Create an account</button>
+            </div>
+
+
+        </header>
+        <hr>
+        <main class="main-cont">
+            <section class="section1">
+                <h1>Secure, Smart, and easy to use email</h1>
+                <p>Get more done with Gmail. Now integreated with Google Chat, Google meet, and more, all in one place.
+                </p>
+                <button class="btn-ca">Create an account</button>
+                <button class="btn-fw">For work</button>
+            </section>
+            <section class="section2">
+                <img src="https://lh3.googleusercontent.com/PWXM4hp9lRRezHTV86SqLwhRQMz4_Lk08jll3GkWBvBZy_Uk6kvUvwIrVilwaIW2mHZJoccchG6o9a5UdOJEwQPf9oJGmOGSglo3VW0=rw-e365-w2880"
+                    alt="sample image">
+            </section>
+
+        </main>
+    </div>
+
+
+</body>
+
+</html>

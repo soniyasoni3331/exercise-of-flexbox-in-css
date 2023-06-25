@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox in CSS Assignment Q5</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+        }
+        .container{
+            background-color: black;
+            height: 100%;
+            width: 100%;
+            color: aliceblue;
+        }
+        h1{
+            text-align: center;
+            padding: 20px;
+            margin: 0;
+            color: coral;  
+        }
+        .card-container{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content:center;
+        }
+
+        
+        .card-matter1{
+            text-align: center;
+            height: 620px;
+            width: 300px;
+            background-color:  deepskyblue;
+            color: black;
+            margin: 20px;
+            border: 4px solid darkslategray;
+
+        }
+        .card-item{
+            margin: 10px;
+            text-align: left;
+        }
+        .card-matter1>h2{
+            font-size: 30px;
+            font-weight: bolder;
+        }
+        .card-matter1>img{
+            border-radius: 100px;
+            height: 200px;
+            width: 200px;
+        }
+        .card-matter2{
+            text-align: center;
+            height: 620px;
+            width: 300px;
+            background-color: deeppink;
+            color: black;
+            margin: 20px;
+            border: 4px solid darkslategray;
+
+
+
+        }
+        .card-matter2>h2{
+            font-size: 30px;
+            font-weight: bolder;
+        }
+        .card-matter2>img{
+            border-radius: 100px;
+            height: 200px;
+            width: 200px;
+        }
+
+        .card-matter3{
+            text-align: center;
+            height: 620px;
+            width: 300px;
+            background-color: lightseagreen;
+            color: black;
+            margin: 20px;
+            border: 4px solid darkslategray;
+
+
+
+        }
+        .card-matter3>h2{
+            font-size: 30px;
+            font-weight: bolder;
+        }
+        .card-matter3>img{
+            border-radius: 100px;
+            height: 200px;
+            width: 200px;
+        }
+
+
+    </style>
+</head>
+
+<body>
+    <div class="container">
+    
+            <h1>Full stack Web Development </h1>
+        
+
+        <!-- card container -->
+
+        <div class="card-container">
+            <!-- project item one -->
+            <div class="card-matter1">
+                <h2>HTML</h2>
+                <img src="./html (2).jpg" alt="html logo">
+                <div class="card-item">
+
+
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        quidem doloribus eaque minima! Dolores quidem illo itaque odio sunt. Illo quae necessitatibus
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Hic aliquid sequi facere.
+                        Lorem ipsum dolor sit amet.
+                        squam optio? Dolores id possimus quia?
+                        Voluptatibus ut nostrum maiores quos eligendi? At consectetur repudiandae dolor quia magnam
+                        accusantium fuga ipsam voluptatem, debitis cumque aliquam voluptatum modi ad ectus molestias
+                        itaque neque nemo in sed amet distinctio accusantium illo corrupti facilis odio? Corrupti!</p>
+                </div>
+
+
+            </div>
+            <!-- project item two -->
+            <div class="card-matter2">
+                <h2>CSS</h2>
+                <img src="./css.jpg" alt="css logo">
+                <div class="card-item">
+
+
+                    <p>Lorem ipsum dolor sit amet consectetur adi
+                        quidem doloribus eaque minima! Dolores quidem illo itaque odio sunt. Illo quae necessitatibus
+                        eum mollitia debitis? Tempore il eum. Praesentium quibusdam porro itaque di
+                        itaque neque nemo in sed amet distinctio accusantium illo corrupti facilis odio? Corrupti!</p>
+                </div>
+            </div>
+
+                <!-- project item three -->
+                <div class="card-matter3">
+                    <h2>JavaScript</h2>
+                    <img src="./js1.jpg" alt="js logo">
+                    <div class="card-item">
+
+
+                        <p>Lorem ipsum dolor sit amet consectetur  doloribus eaque minima! Dolores quidem illo itaque odio sunt. Illo quae
+                            necessitatibus eum mollitia debitis? Tempore il eum. Praesentium quibusdam porro itaque
+                            dignissimos libero ipsam quidem pariatur cum quae, quaerat sapiente voluptates ab aut
+                            voluptate in facilis numquam nemo quam quod 
+                            corrupti facilis odio? Corrupti!</p>
+                    </div>
+
+
+                </div>
+
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+</body>
+
+</html>
